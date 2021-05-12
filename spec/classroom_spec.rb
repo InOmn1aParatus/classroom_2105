@@ -59,4 +59,18 @@ describe Classroom do
       expect(classroom.over_capacity).to eq true
     end
   end
+
+  # Iteration 4
+  context 'Kick out' do
+    it 'kicks out extra students' do
+      classroom = Classroom.new('History', 4)
+      classroom.add_student('Mike')
+      classroom.add_student('Megan')
+      classroom.add_student('Bob')
+      classroom.add_student('James')
+      classroom.add_student('Kat')
+      classroom.add_student('Alice')
+
+      expect # Here is where I ended up
+
 end
