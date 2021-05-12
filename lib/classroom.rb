@@ -18,4 +18,8 @@ class Classroom
       student.upcase
     end
   end
+
+  def over_capacity
+    @students.length >= @capacity
+  end
 end
